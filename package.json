@@ -4,13 +4,14 @@
   "description": "to book appointment",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/18bmiit080/PhysiotherpayCenter.git"
   },
-  "author": "pooja",
+  "author": "Riddhi Sukhadiya",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/18bmiit080/PhysiotherpayCenter/issues"
@@ -23,7 +24,7 @@
     "express-validator": "^6.14.0",
     "gravatar": "^1.8.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.4",
+    "mongoose": "^6.2.9",
     "request": "^2.88.2"
   },
   "devDependencies": {
