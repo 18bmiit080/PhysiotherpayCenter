@@ -1,4 +1,4 @@
 {
-    "mongoUrl": "mongodb://localhost:27017/physio_center",
+    "mongoUrl": "mongodb://localhost:27017/physiocenter",
     "jwtSecret": "mysecrettoken"
 }
